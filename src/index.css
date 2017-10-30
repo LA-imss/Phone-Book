@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+.phonebook {
+	width: 800px;
+	color: #888;
+	background-color: #c1f5ff;
+	margin: auto;
+	border: 1px solid #41d3f4;
+	border-radius: 10px;
+}
+
+.phonebook h1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.form {
+	padding-top: 10px;
+}
+
+.form, .search {
+	background-color: #41d3f4;
+}
+
+.search {
+	text-align: center;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.input {
+	width: 200px;
+	margin-left: 10px;
+	border: 1px solid #41d3f4;
+	border-radius: 8px;
+	height: 25px;
+}
+
+.btn-add, .btn-search {
+	border: 1px solid transparent;
+	border-radius: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.btn-add:hover, .btn-search:hover {
+	background-color: #999;
+}
+
+.list {
+	color: #555;
+	margin-top: 30px;
+	background-color: #41d3f4;
+	min-height: 50px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	list-style-type: none;
+}
+
+.list-item:first-child {
+	font-size: 20px;
+}
+
+.list-item {
+	background-color: #c1f5ff;
+	width: 710px;
+	padding-left: 5px;
+	border: 2px solid #41d3f4;
+	border-radius: 5px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.detail {
+	display: inline-block;
+	width: 210px;
+}
+
+.btn-remove {
+	border: 1px solid #41d3f4;
+	border-radius: 3px;
+	background-color: #41d3f4;
+	color: #fff;
+	cursor: pointer;
+}
